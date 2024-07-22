@@ -10,6 +10,19 @@
 defined( 'ABSPATH' ) || exit;
 
 $container = get_theme_mod( 'understrap_container_type' );
+
+if (is_plugin_active( 'gtranslate/gtranslate.php' )) {
+	?>
+
+<div class="translate-banner navbar justify-content-between">
+	<div class="container">
+		<div class="translate-banner__heading">The Official Website of the County of San Diego | sandiegocounty.gov</div>
+		<div class="dropdown"><?php echo do_shortcode( '[gtranslate]' ) ?></div>
+	</div>
+</div>
+
+	<?php
+}
 ?>
 
 <nav id="main-nav" class="navbar navbar-expand-md navbar-dark bg-primary" aria-labelledby="main-nav-label">

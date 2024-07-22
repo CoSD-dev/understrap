@@ -1,67 +1,4 @@
 @charset "UTF-8";
-.navbar-brand img {
-  height: 45%;
-  width: 45%;
-}
-
-.translate-banner {
-  background-color: #f5f5f7;
-}
-.translate-banner .gtranslate_wrapper {
-  display: flex;
-  justify-content: end;
-}
-
-.translate-banner__heading {
-  margin: 1em 0;
-}
-
-.homepage-hero {
-  color: #fff;
-  background-color: #1462a2;
-}
-
-.homepage-hero__heading {
-  color: #ffcb2d;
-}
-
-.section_services {
-  background-color: #f5f5f7;
-}
-
-.section_events {
-  background-color: #ffde76;
-}
-
-.section_governments {
-  background-color: #013b69;
-  color: #fff;
-}
-
-.section_featured {
-  background-color: #001c31;
-  color: #fff;
-}
-.section_featured .featured-card {
-  background-color: #032742;
-}
-
-.survey-banner {
-  background-color: #343437;
-  color: #fff;
-}
-.survey-banner .survey-banner__heading {
-  padding: 1.5em 0;
-}
-.survey-banner .btn-column {
-  display: flex;
-  justify-content: center;
-  padding: 1em 0;
-}
-.survey-banner .block_btn__margin {
-  margin-right: 1em;
-}
-
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -15419,6 +15356,66 @@ figure.woocommerce-product-gallery__wrapper {
   margin: 0;
   overflow: visible;
   clip: auto;
+}
+
+.navbar-brand img {
+  height: 45%;
+  width: 45%;
+}
+
+.translate-banner {
+  background-color: #f5f5f7;
+}
+.translate-banner .gtranslate_wrapper {
+  display: flex;
+  justify-content: end;
+}
+
+.homepage-hero {
+  color: #fff;
+  background-color: #1462a2;
+}
+
+.homepage-hero p {
+  color: #ffcb2d;
+  font-weight: bold;
+}
+
+.section_services {
+  background-color: #f5f5f7;
+}
+
+.section_events {
+  background-color: #ffde76;
+}
+
+.section_governments {
+  background-color: #013b69;
+  color: #fff;
+}
+
+.section_featured {
+  background-color: #001c31;
+  color: #fff;
+}
+.section_featured .featured-card {
+  background-color: #032742;
+}
+
+.survey-banner {
+  background-color: #343437;
+  color: #fff;
+}
+.survey-banner .survey-banner__heading {
+  padding: 1.5em 0;
+}
+.survey-banner .btn-column {
+  display: flex;
+  justify-content: center;
+  padding: 1em 0;
+}
+.survey-banner .block_btn__margin {
+  margin-right: 1em;
 }
 
 /*# sourceMappingURL=theme.css.map */
