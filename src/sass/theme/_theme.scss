@@ -20,7 +20,7 @@
 
 .homepage-hero p {
 	color: #ffcb2d;
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .section_services {
@@ -28,12 +28,41 @@
 }
 .section_news {
 }
+
+.cta-container {
+	background-color: #fff5de;
+	border-radius: 1em;
+
+	img {
+		border-radius: 1em 0em 0em 1em;
+	}
+}
+
 .section_events {
 	background-color: #ffde76;
+
+	.card {
+		border-radius: 2em 2em 1em 1em;
+	}
+
+	img {
+		width: 100%;
+		border-radius: 1em 2em 0em 0em;
+		height: 200px;
+	}
 }
 .section_governments {
 	background-color: #013b69;
 	color: #fff;
+
+	.horizontal-card {
+		background-color: #012b4d;
+		border-radius: 1em;
+
+		img {
+			border-radius: 1em 0em 0em 1em;
+		}
+	}
 }
 .section_featured {
 	background-color: #001c31;
