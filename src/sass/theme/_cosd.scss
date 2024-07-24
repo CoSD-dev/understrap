@@ -1,0 +1,260 @@
+:root {
+    /* Variables for Colors, Fonts */
+    
+    /* San Diego Bay Blue */
+    --color-sdb-0: rgba(235, 248, 255, 1);
+    --color-sdb-50: rgba(210, 235, 255, 1);
+    --color-sdb-100: rgba(176, 219, 255, 1);
+    --color-sdb-200: rgba(95, 188, 235, 1);
+    --color-sdb-300: rgba(48, 133, 188, 1);
+    --color-sdb-400: rgba(21, 98, 161, 1);
+    --color-sdb-500: rgba(15, 91, 155, 1);
+    --color-sdb-600: rgba(0, 75, 138, 1);
+    --color-sdb-700: rgba(0, 61, 110, 1);
+    --color-sdb-800: rgba(0, 41, 77, 1);
+    --color-sdb-900: rgba(0, 28, 49, 1);
+  
+    /* Western Bluebird Blue */
+    --color-wbb-0: rgba(239, 250, 255, 1);
+    --color-wbb-50: rgba(216, 244, 255, 1);
+    --color-wbb-100: rgba(184, 236, 255, 1);
+    --color-wbb-200: rgba(90, 222, 255, 1);
+    --color-wbb-300: rgba(15, 200, 255, 1);
+    --color-wbb-400: rgba(0, 176, 240, 1);
+    --color-wbb-500: rgba(0, 159, 202, 1);
+    --color-wbb-600: rgba(0, 128, 171, 1);
+    --color-wbb-700: rgba(0, 104, 142, 1);
+    --color-wbb-800: rgba(0, 72, 98, 1);
+    --color-wbb-900: rgba(0, 47, 65, 1);
+  
+    /* Local Citrus Orange */
+    --color-lco-0: rgba(255, 251, 241, 1);
+    --color-lco-50: rgba(255, 245, 222, 1);
+    --color-lco-100: rgba(255, 237, 191, 1);
+    --color-lco-200: rgba(255, 222, 118, 1);
+    --color-lco-300: rgba(255, 203, 46, 1);
+    --color-lco-400: rgba(253, 186, 22, 1);
+    --color-lco-500: rgba(217, 166, 0, 1);
+    --color-lco-600: rgba(182, 135, 0, 1);
+    --color-lco-700: rgba(154, 110, 0, 1);
+    --color-lco-800: rgba(106, 75, 0, 1);
+    --color-lco-900: rgba(70, 50, 0, 1);
+  
+    /* Rolling Hills Green */
+    --color-rhg-0: rgba(245, 255, 213, 1);
+    --color-rhg-50: rgba(231, 252, 174, 1);
+    --color-rhg-100: rgba(214, 238, 160, 1);
+    --color-rhg-200: rgba(186, 210, 132, 1);
+    --color-rhg-300: rgba(153, 172, 94, 1);
+    --color-rhg-400: rgba(119, 144, 66, 1);
+    --color-rhg-500: rgba(109, 134, 56, 1);
+    --color-rhg-600: rgba(83, 109, 31, 1);
+    --color-rhg-700: rgba(68, 92, 14, 1);
+    --color-rhg-800: rgba(46, 66, 0, 1);
+    --color-rhg-900: rgba(29, 45, 0, 1);
+  
+    /* Sagebrush Green */
+    --color-sbg-0: rgba(250, 255, 222, 1);
+    --color-sbg-50: rgba(241, 255, 179, 1);
+    --color-sbg-100: rgba(231, 251, 138, 1);
+    --color-sbg-200: rgba(211, 232, 119, 1);
+    --color-sbg-300: rgba(187, 206, 93, 1);
+    --color-sbg-400: rgba(165, 186, 73, 1);
+    --color-sbg-500: rgba(152, 168, 55, 1);
+    --color-sbg-600: rgba(119, 140, 27, 1);
+    --color-sbg-700: rgba(97, 118, 5, 1);
+    --color-sbg-800: rgba(66, 81, 0, 1);
+    --color-sbg-900: rgba(45, 54, 0, 1);
+  
+    /* Mountain Shadow Grey */
+    --color-msg-0: rgba(245, 245, 245, 1);
+    --color-msg-50: rgba(231, 231, 231, 1);
+    --color-msg-100: rgba(211, 211, 214, 1);
+    --color-msg-200: rgba(175, 175, 178, 1);
+    --color-msg-300: rgba(122, 122, 125, 1);
+    --color-msg-400: rgba(88, 88, 91, 1);
+    --color-msg-500: rgba(81, 81, 84, 1);
+    --color-msg-600: rgba(63, 63, 66, 1);
+    --color-msg-700: rgba(52, 52, 55, 1);
+    --color-msg-800: rgba(36, 36, 39, 1);
+    --color-msg-900: rgba(23, 23, 26, 1);
+  
+    /* Administration Center Peach */
+    --color-acp-0: rgba(255, 253, 252, 1);
+    --color-acp-50: rgba(255, 251, 247, 1);
+    --color-acp-100: rgba(255, 247, 241, 1);
+    --color-acp-200: rgba(255, 240, 230, 1);
+    --color-acp-300: rgba(255, 231, 215, 1);
+    --color-acp-400: rgba(254, 224, 203, 1);
+    --color-acp-500: rgba(219, 189, 168, 1);
+    --color-acp-600: rgba(186, 160, 135, 1);
+    --color-acp-700: rgba(160, 130, 109, 1);
+    --color-acp-800: rgba(119, 88, 68, 1);
+    --color-acp-900: rgba(83, 57, 32, 1);
+  
+    /* Functional Colors */
+    --color-warning-bg: rgba(250, 243, 209, 1);
+    --color-warning: rgba(255, 190, 46, 1);
+    --color-error-bg: rgba(244, 227, 219, 1);
+    --color-error: rgba(213, 67, 9, 1);
+    --color-info-bg: rgba(48, 133, 188, 1);
+    --color-info: rgba(95, 188, 235, 1);
+    --color-success-bg: rgba(236, 243, 236, 1);
+    --color-success: rgba(0, 169, 28, 1);
+    
+    /* Header H1 */
+    --header-h1-font-family: 'Lora', serif;
+    --header-h1-font-weight: bold;
+    --header-h1-font-size: 40px;
+    --header-h1-line-height: 50px;
+  
+    /* Header H2 */
+    --header-h2-font-family: 'Lora', serif;
+    --header-h2-font-weight: bold;
+    --header-h2-font-size: 32px;
+    --header-h2-line-height: 42px;
+  
+    /* Header H3 */
+    --header-h3-font-family: 'Lora', serif;
+    --header-h3-font-weight: bold;
+    --header-h3-font-size: 20px;
+    --header-h3-line-height: 24px;
+  
+    /* Header H4 */
+    --header-h4-font-family: 'Inter', sans-serif;
+    --header-h4-font-weight: bold;
+    --header-h4-font-size: 18px;
+    --header-h4-line-height: 22px;
+  
+    /* Header H5 */
+    --header-h5-font-family: 'Inter', sans-serif;
+    --header-h5-font-weight: bold;
+    --header-h5-font-size: 16px;
+    --header-h5-line-height: 23px;
+  
+    /* Header H6 */
+    --header-h6-font-family: 'Inter', sans-serif;
+    --header-h6-font-weight: bold;
+    --header-h6-font-size: 14px;
+    --header-h6-line-height: 17px;
+
+    /* Body 18 Regular */
+    --body-18-regular-font-family: 'Inter', sans-serif;
+    --body-18-regular-font-weight: normal;
+    --body-18-regular-font-size: 18px;
+    --body-18-regular-line-height: 28px;
+  
+    /* Body 18 Semibold */
+    --body-18-semibold-font-family: 'Inter', sans-serif;
+    --body-18-semibold-font-weight: semi-bold;
+    --body-18-semibold-font-size: 18px;
+    --body-18-semibold-line-height: 28px;
+  
+    /* Body 16 Regular */
+    --body-16-regular-font-family: 'Inter', sans-serif;
+    --body-16-regular-font-weight: normal;
+    --body-16-regular-font-size: 16px;
+    --body-16-regular-line-height: 24px;
+  
+    /* Body 16 Medium */
+    --body-16-medium-font-family: 'Inter', sans-serif;
+    --body-16-medium-font-weight: medium;
+    --body-16-medium-font-size: 16px;
+    --body-16-medium-line-height: 24px;
+  
+    /* Body 16 Semibold */
+    --body-16-semibold-font-family: 'Inter', sans-serif;
+    --body-16-semibold-font-weight: semi-bold;
+    --body-16-semibold-font-size: 16px;
+    --body-16-semibold-line-height: 24px;
+  
+    /* Body 14 Regular */
+    --body-14-regular-font-family: 'Inter', sans-serif;
+    --body-14-regular-font-weight: normal;
+    --body-14-regular-font-size: 14px;
+    --body-14-regular-line-height: 20px;
+  
+    /* Body 14 Semibold */
+    --body-14-semibold-font-family: 'Inter', sans-serif;
+    --body-14-semibold-font-weight: semi-bold;
+    --body-14-semibold-font-size: 14px;
+    --body-14-semibold-line-height: 20px;
+
+    /* Mobile Header H1 */
+    --mobile-header-h1-font-family: 'Lora', serif;
+    --mobile-header-h1-font-weight: bold;
+    --mobile-header-h1-font-size: 32px;
+    --mobile-header-h1-line-height: auto;
+  
+    /* Mobile Header H2 */
+    --mobile-header-h2-font-family: 'Lora', serif;
+    --mobile-header-h2-font-weight: bold;
+    --mobile-header-h2-font-size: 24px;
+    --mobile-header-h2-line-height: auto;
+  
+    /* Mobile Header H3 */
+    --mobile-header-h3-font-family: 'Lora', serif;
+    --mobile-header-h3-font-weight: bold;
+    --mobile-header-h3-font-size: 20px;
+    --mobile-header-h3-line-height: 26px;
+  
+    /* Mobile Header H4 */
+    --mobile-header-h4-font-family: 'Inter', sans-serif;
+    --mobile-header-h4-font-weight: bold;
+    --mobile-header-h4-font-size: 18px;
+    --mobile-header-h4-line-height: 26px;
+  
+    /* Mobile Header H5 */
+    --mobile-header-h5-font-family: 'Inter', sans-serif;
+    --mobile-header-h5-font-weight: bold;
+    --mobile-header-h5-font-size: 16px;
+    --mobile-header-h5-line-height: 26px;
+  
+    /* Mobile Header H6 */
+    --mobile-header-h6-font-family: 'Inter', sans-serif;
+    --mobile-header-h6-font-weight: bold;
+    --mobile-header-h6-font-size: 14px;
+    --mobile-header-h6-line-height: 26px;
+  
+    /* Mobile Body 18 Regular */
+    --mobile-body-18-regular-font-family: 'Inter', sans-serif;
+    --mobile-body-18-regular-font-weight: normal;
+    --mobile-body-18-regular-font-size: 18px;
+    --mobile-body-18-regular-line-height: 28px;
+  
+    /* Mobile Body 18 Semibold */
+    --mobile-body-18-semibold-font-family: 'Inter', sans-serif;
+    --mobile-body-18-semibold-font-weight: semi-bold;
+    --mobile-body-18-semibold-font-size: 18px;
+    --mobile-body-18-semibold-line-height: 28px;
+  
+    /* Mobile Body 16 Regular */
+    --mobile-body-16-regular-font-family: 'Inter', sans-serif;
+    --mobile-body-16-regular-font-weight: normal;
+    --mobile-body-16-regular-font-size: 16px;
+    --mobile-body-16-regular-line-height: 24px;
+  
+    /* Mobile Body 16 Medium */
+    --mobile-body-16-medium-font-family: 'Inter', sans-serif;
+    --mobile-body-16-medium-font-weight: medium;
+    --mobile-body-16-medium-font-size: 16px;
+    --mobile-body-16-medium-line-height: 24px;
+  
+    /* Mobile Body 16 Semibold */
+    --mobile-body-16-semibold-font-family: 'Inter', sans-serif;
+    --mobile-body-16-semibold-font-weight: semi-bold;
+    --mobile-body-16-semibold-font-size: 16px;
+    --mobile-body-16-semibold-line-height: 24px;
+  
+    /* Mobile Body 14 Regular */
+    --mobile-body-14-regular-font-family: 'Inter', sans-serif;
+    --mobile-body-14-regular-font-weight: normal;
+    --mobile-body-14-regular-font-size: 14px;
+    --mobile-body-14-regular-line-height: 20px;
+  
+    /* Mobile Body 14 Semibold */
+    --mobile-body-14-semibold-font-family: 'Inter', sans-serif;
+    --mobile-body-14-semibold-font-weight: semi-bold;
+    --mobile-body-14-semibold-font-size: 14px;
+    --mobile-body-14-semibold-line-height: 20px;
+  } 
