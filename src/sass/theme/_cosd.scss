@@ -1,0 +1,38 @@
+@use 'cosd-colors' as *;
+@use 'cosd-type-scale' as *;
+
+/* CoSD Color Variables */
+:root {
+    @each $color, $shades in $cosd-colors {
+        @each $shade, $value in $shades {
+            --clr-#{$color}-#{$shade}: #{$value};
+        }
+    }
+    
+    // @each $screen-size, $font-size in $cosd-type-scale {
+    //     @if $screen-size == small {
+    //         @each $size, $value in $font-size {
+    //             --fs-#{$size}: #{$value};
+    //         }
+    //      } @else {
+    //          @include mq(small) {
+    //              @each $size,
+    //              $value in $font-size {
+    //                  --fs-#{$size}: #{$value};
+    //              }
+    //          }
+    //     }
+    // } 
+}
+
+/* CoSD Color Utility Classes */
+@each $color, $shades in $cosd-colors {
+    @each $shade, $value in $shades {
+        .text-#{$color}-#{$shade} {
+            color: $value;
+        }
+        .bg-#{$color}-#{$shade} {
+            color: $value;
+        }
+    }
+}
