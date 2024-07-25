@@ -5,6 +5,7 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -15439,6 +15440,776 @@ figure.woocommerce-product-gallery__wrapper {
 }
 .survey-banner .block_btn__margin {
   margin-right: 1em;
+}
+
+/* CoSD Color Variables */
+:root {
+  --clr-san-diego-bay-blue-0: hsl(202, 100%, 96%);
+  --clr-san-diego-bay-blue-50: hsl(202, 100%, 91%);
+  --clr-san-diego-bay-blue-100: hsl(202, 100%, 84%);
+  --clr-san-diego-bay-blue-200: hsl(202, 79%, 65%);
+  --clr-san-diego-bay-blue-300: hsl(202, 59%, 46%);
+  --clr-san-diego-bay-blue-400: hsl(202, 77%, 36%);
+  --clr-san-diego-bay-blue-500: hsl(202, 81%, 33%);
+  --clr-san-diego-bay-blue-600: hsl(202, 100%, 27%);
+  --clr-san-diego-bay-blue-700: hsl(202, 100%, 22%);
+  --clr-san-diego-bay-blue-800: hsl(202, 100%, 15%);
+  --clr-san-diego-bay-blue-900: hsl(202, 100%, 10%);
+  --clr-western-bluebird-blue-0: hsl(200, 100%, 97%);
+  --clr-western-bluebird-blue-50: hsl(200, 100%, 92%);
+  --clr-western-bluebird-blue-100: hsl(200, 100%, 86%);
+  --clr-western-bluebird-blue-200: hsl(200, 100%, 68%);
+  --clr-western-bluebird-blue-300: hsl(200, 100%, 53%);
+  --clr-western-bluebird-blue-400: hsl(200, 100%, 47%);
+  --clr-western-bluebird-blue-500: hsl(200, 100%, 40%);
+  --clr-western-bluebird-blue-600: hsl(200, 100%, 34%);
+  --clr-western-bluebird-blue-700: hsl(200, 100%, 28%);
+  --clr-western-bluebird-blue-800: hsl(200, 100%, 19%);
+  --clr-western-bluebird-blue-900: hsl(200, 100%, 13%);
+  --clr-local-citrus-orange-0: hsl(36, 100%, 97%);
+  --clr-local-citrus-orange-50: hsl(36, 100%, 93%);
+  --clr-local-citrus-orange-100: hsl(36, 100%, 88%);
+  --clr-local-citrus-orange-200: hsl(36, 100%, 73%);
+  --clr-local-citrus-orange-300: hsl(36, 100%, 59%);
+  --clr-local-citrus-orange-400: hsl(36, 99%, 54%);
+  --clr-local-citrus-orange-500: hsl(36, 100%, 43%);
+  --clr-local-citrus-orange-600: hsl(36, 100%, 36%);
+  --clr-local-citrus-orange-700: hsl(36, 100%, 30%);
+  --clr-local-citrus-orange-800: hsl(36, 100%, 21%);
+  --clr-local-citrus-orange-900: hsl(36, 100%, 14%);
+  --clr-rolling-hills-green-0: hsl(73, 100%, 92%);
+  --clr-rolling-hills-green-50: hsl(74, 100%, 83%);
+  --clr-rolling-hills-green-100: hsl(74, 70%, 78%);
+  --clr-rolling-hills-green-200: hsl(73, 52%, 67%);
+  --clr-rolling-hills-green-300: hsl(73, 31%, 52%);
+  --clr-rolling-hills-green-400: hsl(73, 38%, 41%);
+  --clr-rolling-hills-green-500: hsl(73, 41%, 37%);
+  --clr-rolling-hills-green-600: hsl(73, 55%, 27%);
+  --clr-rolling-hills-green-700: hsl(73, 73%, 21%);
+  --clr-rolling-hills-green-800: hsl(73, 100%, 13%);
+  --clr-rolling-hills-green-900: hsl(73, 100%, 9%);
+  --clr-sagebrush-green-0: hsl(68, 100%, 93%);
+  --clr-sagebrush-green-50: hsl(68, 100%, 85%);
+  --clr-sagebrush-green-100: hsl(68, 100%, 77%);
+  --clr-sagebrush-green-200: hsl(68, 78%, 69%);
+  --clr-sagebrush-green-300: hsl(68, 55%, 59%);
+  --clr-sagebrush-green-400: hsl(68, 47%, 51%);
+  --clr-sagebrush-green-500: hsl(68, 49%, 44%);
+  --clr-sagebrush-green-600: hsl(68, 67%, 33%);
+  --clr-sagebrush-green-700: hsl(68, 92%, 24%);
+  --clr-sagebrush-green-800: hsl(68, 100%, 16%);
+  --clr-sagebrush-green-900: hsl(68, 100%, 11%);
+  --clr-mountain-shadow-grey-0: hsl(0, 0%, 96%);
+  --clr-mountain-shadow-grey-50: hsl(0, 0%, 91%);
+  --clr-mountain-shadow-grey-100: hsl(240, 1%, 84%);
+  --clr-mountain-shadow-grey-200: hsl(240, 1%, 69%);
+  --clr-mountain-shadow-grey-300: hsl(240, 1%, 48%);
+  --clr-mountain-shadow-grey-400: hsl(240, 1%, 35%);
+  --clr-mountain-shadow-grey-500: hsl(240, 1%, 32%);
+  --clr-mountain-shadow-grey-600: hsl(240, 1%, 25%);
+  --clr-mountain-shadow-grey-700: hsl(240, 1%, 21%);
+  --clr-mountain-shadow-grey-800: hsl(240, 1%, 14%);
+  --clr-mountain-shadow-grey-900: hsl(240, 1%, 10%);
+  --clr-administration-center-peach-0: hsl(20, 100%, 99%);
+  --clr-administration-center-peach-50: hsl(20, 100%, 98%);
+  --clr-administration-center-peach-100: hsl(20, 100%, 97%);
+  --clr-administration-center-peach-200: hsl(20, 100%, 95%);
+  --clr-administration-center-peach-300: hsl(20, 100%, 91%);
+  --clr-administration-center-peach-400: hsl(21, 100%, 89%);
+  --clr-administration-center-peach-500: hsl(20, 39%, 76%);
+  --clr-administration-center-peach-600: hsl(20, 39%, 63%);
+  --clr-administration-center-peach-700: hsl(20, 39%, 53%);
+  --clr-administration-center-peach-800: hsl(20, 28%, 37%);
+  --clr-administration-center-peach-900: hsl(20, 43%, 23%);
+  --clr-functional-warning-bg: hsl(48, 80%, 90%);
+  --clr-functional-warning: hsl(38, 100%, 59%);
+  --clr-functional-error-bg: hsl(10, 61%, 91%);
+  --clr-functional-error: hsl(12, 92%, 44%);
+  --clr-functional-info-bg: hsl(202, 59%, 46%);
+  --clr-functional-info: hsl(202, 79%, 65%);
+  --clr-functional-success-bg: hsl(120, 24%, 94%);
+  --clr-functional-success: hsl(120, 100%, 33%);
+}
+
+/* CoSD Color Utility Classes */
+.text-san-diego-bay-blue-0 {
+  color: hsl(202, 100%, 96%);
+}
+
+.bg-san-diego-bay-blue-0 {
+  color: hsl(202, 100%, 96%);
+}
+
+.text-san-diego-bay-blue-50 {
+  color: hsl(202, 100%, 91%);
+}
+
+.bg-san-diego-bay-blue-50 {
+  color: hsl(202, 100%, 91%);
+}
+
+.text-san-diego-bay-blue-100 {
+  color: hsl(202, 100%, 84%);
+}
+
+.bg-san-diego-bay-blue-100 {
+  color: hsl(202, 100%, 84%);
+}
+
+.text-san-diego-bay-blue-200 {
+  color: hsl(202, 79%, 65%);
+}
+
+.bg-san-diego-bay-blue-200 {
+  color: hsl(202, 79%, 65%);
+}
+
+.text-san-diego-bay-blue-300 {
+  color: hsl(202, 59%, 46%);
+}
+
+.bg-san-diego-bay-blue-300 {
+  color: hsl(202, 59%, 46%);
+}
+
+.text-san-diego-bay-blue-400 {
+  color: hsl(202, 77%, 36%);
+}
+
+.bg-san-diego-bay-blue-400 {
+  color: hsl(202, 77%, 36%);
+}
+
+.text-san-diego-bay-blue-500 {
+  color: hsl(202, 81%, 33%);
+}
+
+.bg-san-diego-bay-blue-500 {
+  color: hsl(202, 81%, 33%);
+}
+
+.text-san-diego-bay-blue-600 {
+  color: hsl(202, 100%, 27%);
+}
+
+.bg-san-diego-bay-blue-600 {
+  color: hsl(202, 100%, 27%);
+}
+
+.text-san-diego-bay-blue-700 {
+  color: hsl(202, 100%, 22%);
+}
+
+.bg-san-diego-bay-blue-700 {
+  color: hsl(202, 100%, 22%);
+}
+
+.text-san-diego-bay-blue-800 {
+  color: hsl(202, 100%, 15%);
+}
+
+.bg-san-diego-bay-blue-800 {
+  color: hsl(202, 100%, 15%);
+}
+
+.text-san-diego-bay-blue-900 {
+  color: hsl(202, 100%, 10%);
+}
+
+.bg-san-diego-bay-blue-900 {
+  color: hsl(202, 100%, 10%);
+}
+
+.text-western-bluebird-blue-0 {
+  color: hsl(200, 100%, 97%);
+}
+
+.bg-western-bluebird-blue-0 {
+  color: hsl(200, 100%, 97%);
+}
+
+.text-western-bluebird-blue-50 {
+  color: hsl(200, 100%, 92%);
+}
+
+.bg-western-bluebird-blue-50 {
+  color: hsl(200, 100%, 92%);
+}
+
+.text-western-bluebird-blue-100 {
+  color: hsl(200, 100%, 86%);
+}
+
+.bg-western-bluebird-blue-100 {
+  color: hsl(200, 100%, 86%);
+}
+
+.text-western-bluebird-blue-200 {
+  color: hsl(200, 100%, 68%);
+}
+
+.bg-western-bluebird-blue-200 {
+  color: hsl(200, 100%, 68%);
+}
+
+.text-western-bluebird-blue-300 {
+  color: hsl(200, 100%, 53%);
+}
+
+.bg-western-bluebird-blue-300 {
+  color: hsl(200, 100%, 53%);
+}
+
+.text-western-bluebird-blue-400 {
+  color: hsl(200, 100%, 47%);
+}
+
+.bg-western-bluebird-blue-400 {
+  color: hsl(200, 100%, 47%);
+}
+
+.text-western-bluebird-blue-500 {
+  color: hsl(200, 100%, 40%);
+}
+
+.bg-western-bluebird-blue-500 {
+  color: hsl(200, 100%, 40%);
+}
+
+.text-western-bluebird-blue-600 {
+  color: hsl(200, 100%, 34%);
+}
+
+.bg-western-bluebird-blue-600 {
+  color: hsl(200, 100%, 34%);
+}
+
+.text-western-bluebird-blue-700 {
+  color: hsl(200, 100%, 28%);
+}
+
+.bg-western-bluebird-blue-700 {
+  color: hsl(200, 100%, 28%);
+}
+
+.text-western-bluebird-blue-800 {
+  color: hsl(200, 100%, 19%);
+}
+
+.bg-western-bluebird-blue-800 {
+  color: hsl(200, 100%, 19%);
+}
+
+.text-western-bluebird-blue-900 {
+  color: hsl(200, 100%, 13%);
+}
+
+.bg-western-bluebird-blue-900 {
+  color: hsl(200, 100%, 13%);
+}
+
+.text-local-citrus-orange-0 {
+  color: hsl(36, 100%, 97%);
+}
+
+.bg-local-citrus-orange-0 {
+  color: hsl(36, 100%, 97%);
+}
+
+.text-local-citrus-orange-50 {
+  color: hsl(36, 100%, 93%);
+}
+
+.bg-local-citrus-orange-50 {
+  color: hsl(36, 100%, 93%);
+}
+
+.text-local-citrus-orange-100 {
+  color: hsl(36, 100%, 88%);
+}
+
+.bg-local-citrus-orange-100 {
+  color: hsl(36, 100%, 88%);
+}
+
+.text-local-citrus-orange-200 {
+  color: hsl(36, 100%, 73%);
+}
+
+.bg-local-citrus-orange-200 {
+  color: hsl(36, 100%, 73%);
+}
+
+.text-local-citrus-orange-300 {
+  color: hsl(36, 100%, 59%);
+}
+
+.bg-local-citrus-orange-300 {
+  color: hsl(36, 100%, 59%);
+}
+
+.text-local-citrus-orange-400 {
+  color: hsl(36, 99%, 54%);
+}
+
+.bg-local-citrus-orange-400 {
+  color: hsl(36, 99%, 54%);
+}
+
+.text-local-citrus-orange-500 {
+  color: hsl(36, 100%, 43%);
+}
+
+.bg-local-citrus-orange-500 {
+  color: hsl(36, 100%, 43%);
+}
+
+.text-local-citrus-orange-600 {
+  color: hsl(36, 100%, 36%);
+}
+
+.bg-local-citrus-orange-600 {
+  color: hsl(36, 100%, 36%);
+}
+
+.text-local-citrus-orange-700 {
+  color: hsl(36, 100%, 30%);
+}
+
+.bg-local-citrus-orange-700 {
+  color: hsl(36, 100%, 30%);
+}
+
+.text-local-citrus-orange-800 {
+  color: hsl(36, 100%, 21%);
+}
+
+.bg-local-citrus-orange-800 {
+  color: hsl(36, 100%, 21%);
+}
+
+.text-local-citrus-orange-900 {
+  color: hsl(36, 100%, 14%);
+}
+
+.bg-local-citrus-orange-900 {
+  color: hsl(36, 100%, 14%);
+}
+
+.text-rolling-hills-green-0 {
+  color: hsl(73, 100%, 92%);
+}
+
+.bg-rolling-hills-green-0 {
+  color: hsl(73, 100%, 92%);
+}
+
+.text-rolling-hills-green-50 {
+  color: hsl(74, 100%, 83%);
+}
+
+.bg-rolling-hills-green-50 {
+  color: hsl(74, 100%, 83%);
+}
+
+.text-rolling-hills-green-100 {
+  color: hsl(74, 70%, 78%);
+}
+
+.bg-rolling-hills-green-100 {
+  color: hsl(74, 70%, 78%);
+}
+
+.text-rolling-hills-green-200 {
+  color: hsl(73, 52%, 67%);
+}
+
+.bg-rolling-hills-green-200 {
+  color: hsl(73, 52%, 67%);
+}
+
+.text-rolling-hills-green-300 {
+  color: hsl(73, 31%, 52%);
+}
+
+.bg-rolling-hills-green-300 {
+  color: hsl(73, 31%, 52%);
+}
+
+.text-rolling-hills-green-400 {
+  color: hsl(73, 38%, 41%);
+}
+
+.bg-rolling-hills-green-400 {
+  color: hsl(73, 38%, 41%);
+}
+
+.text-rolling-hills-green-500 {
+  color: hsl(73, 41%, 37%);
+}
+
+.bg-rolling-hills-green-500 {
+  color: hsl(73, 41%, 37%);
+}
+
+.text-rolling-hills-green-600 {
+  color: hsl(73, 55%, 27%);
+}
+
+.bg-rolling-hills-green-600 {
+  color: hsl(73, 55%, 27%);
+}
+
+.text-rolling-hills-green-700 {
+  color: hsl(73, 73%, 21%);
+}
+
+.bg-rolling-hills-green-700 {
+  color: hsl(73, 73%, 21%);
+}
+
+.text-rolling-hills-green-800 {
+  color: hsl(73, 100%, 13%);
+}
+
+.bg-rolling-hills-green-800 {
+  color: hsl(73, 100%, 13%);
+}
+
+.text-rolling-hills-green-900 {
+  color: hsl(73, 100%, 9%);
+}
+
+.bg-rolling-hills-green-900 {
+  color: hsl(73, 100%, 9%);
+}
+
+.text-sagebrush-green-0 {
+  color: hsl(68, 100%, 93%);
+}
+
+.bg-sagebrush-green-0 {
+  color: hsl(68, 100%, 93%);
+}
+
+.text-sagebrush-green-50 {
+  color: hsl(68, 100%, 85%);
+}
+
+.bg-sagebrush-green-50 {
+  color: hsl(68, 100%, 85%);
+}
+
+.text-sagebrush-green-100 {
+  color: hsl(68, 100%, 77%);
+}
+
+.bg-sagebrush-green-100 {
+  color: hsl(68, 100%, 77%);
+}
+
+.text-sagebrush-green-200 {
+  color: hsl(68, 78%, 69%);
+}
+
+.bg-sagebrush-green-200 {
+  color: hsl(68, 78%, 69%);
+}
+
+.text-sagebrush-green-300 {
+  color: hsl(68, 55%, 59%);
+}
+
+.bg-sagebrush-green-300 {
+  color: hsl(68, 55%, 59%);
+}
+
+.text-sagebrush-green-400 {
+  color: hsl(68, 47%, 51%);
+}
+
+.bg-sagebrush-green-400 {
+  color: hsl(68, 47%, 51%);
+}
+
+.text-sagebrush-green-500 {
+  color: hsl(68, 49%, 44%);
+}
+
+.bg-sagebrush-green-500 {
+  color: hsl(68, 49%, 44%);
+}
+
+.text-sagebrush-green-600 {
+  color: hsl(68, 67%, 33%);
+}
+
+.bg-sagebrush-green-600 {
+  color: hsl(68, 67%, 33%);
+}
+
+.text-sagebrush-green-700 {
+  color: hsl(68, 92%, 24%);
+}
+
+.bg-sagebrush-green-700 {
+  color: hsl(68, 92%, 24%);
+}
+
+.text-sagebrush-green-800 {
+  color: hsl(68, 100%, 16%);
+}
+
+.bg-sagebrush-green-800 {
+  color: hsl(68, 100%, 16%);
+}
+
+.text-sagebrush-green-900 {
+  color: hsl(68, 100%, 11%);
+}
+
+.bg-sagebrush-green-900 {
+  color: hsl(68, 100%, 11%);
+}
+
+.text-mountain-shadow-grey-0 {
+  color: hsl(0, 0%, 96%);
+}
+
+.bg-mountain-shadow-grey-0 {
+  color: hsl(0, 0%, 96%);
+}
+
+.text-mountain-shadow-grey-50 {
+  color: hsl(0, 0%, 91%);
+}
+
+.bg-mountain-shadow-grey-50 {
+  color: hsl(0, 0%, 91%);
+}
+
+.text-mountain-shadow-grey-100 {
+  color: hsl(240, 1%, 84%);
+}
+
+.bg-mountain-shadow-grey-100 {
+  color: hsl(240, 1%, 84%);
+}
+
+.text-mountain-shadow-grey-200 {
+  color: hsl(240, 1%, 69%);
+}
+
+.bg-mountain-shadow-grey-200 {
+  color: hsl(240, 1%, 69%);
+}
+
+.text-mountain-shadow-grey-300 {
+  color: hsl(240, 1%, 48%);
+}
+
+.bg-mountain-shadow-grey-300 {
+  color: hsl(240, 1%, 48%);
+}
+
+.text-mountain-shadow-grey-400 {
+  color: hsl(240, 1%, 35%);
+}
+
+.bg-mountain-shadow-grey-400 {
+  color: hsl(240, 1%, 35%);
+}
+
+.text-mountain-shadow-grey-500 {
+  color: hsl(240, 1%, 32%);
+}
+
+.bg-mountain-shadow-grey-500 {
+  color: hsl(240, 1%, 32%);
+}
+
+.text-mountain-shadow-grey-600 {
+  color: hsl(240, 1%, 25%);
+}
+
+.bg-mountain-shadow-grey-600 {
+  color: hsl(240, 1%, 25%);
+}
+
+.text-mountain-shadow-grey-700 {
+  color: hsl(240, 1%, 21%);
+}
+
+.bg-mountain-shadow-grey-700 {
+  color: hsl(240, 1%, 21%);
+}
+
+.text-mountain-shadow-grey-800 {
+  color: hsl(240, 1%, 14%);
+}
+
+.bg-mountain-shadow-grey-800 {
+  color: hsl(240, 1%, 14%);
+}
+
+.text-mountain-shadow-grey-900 {
+  color: hsl(240, 1%, 10%);
+}
+
+.bg-mountain-shadow-grey-900 {
+  color: hsl(240, 1%, 10%);
+}
+
+.text-administration-center-peach-0 {
+  color: hsl(20, 100%, 99%);
+}
+
+.bg-administration-center-peach-0 {
+  color: hsl(20, 100%, 99%);
+}
+
+.text-administration-center-peach-50 {
+  color: hsl(20, 100%, 98%);
+}
+
+.bg-administration-center-peach-50 {
+  color: hsl(20, 100%, 98%);
+}
+
+.text-administration-center-peach-100 {
+  color: hsl(20, 100%, 97%);
+}
+
+.bg-administration-center-peach-100 {
+  color: hsl(20, 100%, 97%);
+}
+
+.text-administration-center-peach-200 {
+  color: hsl(20, 100%, 95%);
+}
+
+.bg-administration-center-peach-200 {
+  color: hsl(20, 100%, 95%);
+}
+
+.text-administration-center-peach-300 {
+  color: hsl(20, 100%, 91%);
+}
+
+.bg-administration-center-peach-300 {
+  color: hsl(20, 100%, 91%);
+}
+
+.text-administration-center-peach-400 {
+  color: hsl(21, 100%, 89%);
+}
+
+.bg-administration-center-peach-400 {
+  color: hsl(21, 100%, 89%);
+}
+
+.text-administration-center-peach-500 {
+  color: hsl(20, 39%, 76%);
+}
+
+.bg-administration-center-peach-500 {
+  color: hsl(20, 39%, 76%);
+}
+
+.text-administration-center-peach-600 {
+  color: hsl(20, 39%, 63%);
+}
+
+.bg-administration-center-peach-600 {
+  color: hsl(20, 39%, 63%);
+}
+
+.text-administration-center-peach-700 {
+  color: hsl(20, 39%, 53%);
+}
+
+.bg-administration-center-peach-700 {
+  color: hsl(20, 39%, 53%);
+}
+
+.text-administration-center-peach-800 {
+  color: hsl(20, 28%, 37%);
+}
+
+.bg-administration-center-peach-800 {
+  color: hsl(20, 28%, 37%);
+}
+
+.text-administration-center-peach-900 {
+  color: hsl(20, 43%, 23%);
+}
+
+.bg-administration-center-peach-900 {
+  color: hsl(20, 43%, 23%);
+}
+
+.text-functional-warning-bg {
+  color: hsl(48, 80%, 90%);
+}
+
+.bg-functional-warning-bg {
+  color: hsl(48, 80%, 90%);
+}
+
+.text-functional-warning {
+  color: hsl(38, 100%, 59%);
+}
+
+.bg-functional-warning {
+  color: hsl(38, 100%, 59%);
+}
+
+.text-functional-error-bg {
+  color: hsl(10, 61%, 91%);
+}
+
+.bg-functional-error-bg {
+  color: hsl(10, 61%, 91%);
+}
+
+.text-functional-error {
+  color: hsl(12, 92%, 44%);
+}
+
+.bg-functional-error {
+  color: hsl(12, 92%, 44%);
+}
+
+.text-functional-info-bg {
+  color: hsl(202, 59%, 46%);
+}
+
+.bg-functional-info-bg {
+  color: hsl(202, 59%, 46%);
+}
+
+.text-functional-info {
+  color: hsl(202, 79%, 65%);
+}
+
+.bg-functional-info {
+  color: hsl(202, 79%, 65%);
+}
+
+.text-functional-success-bg {
+  color: hsl(120, 24%, 94%);
+}
+
+.bg-functional-success-bg {
+  color: hsl(120, 24%, 94%);
+}
+
+.text-functional-success {
+  color: hsl(120, 100%, 33%);
+}
+
+.bg-functional-success {
+  color: hsl(120, 100%, 33%);
 }
 
 /*# sourceMappingURL=theme.css.map */
