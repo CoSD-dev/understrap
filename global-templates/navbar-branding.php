@@ -29,5 +29,6 @@ if ( ! has_custom_logo() ) { ?>
 
 	<?php
 } else {
-	the_custom_logo();
+	// the_custom_logo();
+	get_template_part('global-templates/nav-logo');
 }

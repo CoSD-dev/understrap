@@ -1,0 +1,33 @@
+.navbar-nav a {
+	color: var(--Mountain-Shadow-Grey-msgrey-800, #242427);
+	font-family: $Inter;
+	/* Body/16px/16 Medium */
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px; /* 150% */
+	display: flex;
+	padding: 12px;
+	align-items: center;
+	gap: 8px;
+}
+
+.astm-search-menu {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-left: 32px;
+}
+
+.astm-search-menu input.is-search-input {
+	border-radius: 8px 0 0 8px;
+}
+
+.astm-search-menu .is-search-icon {
+	background: var(--San-Diego-Bay-Blue-sdblue-400, #1562a1);
+	border-radius: 0 8px 8px 0;
+}
+
+.astm-search-menu .is-form-style .is-search-submit path {
+	fill: #fff;
+}
