@@ -1,7 +1,7 @@
 @use 'cosd-colors' as *;
-@use 'cosd-type-scale' as *;
+@use 'cosd-fonts' as *;
 
-/* CoSD Color Variables */
+/* CoSD Variables */
 :root {
     @each $color, $shades in $cosd-colors {
         @each $shade, $value in $shades {
@@ -9,11 +9,11 @@
         }
     }
     
-    // @each $screen-size, $font-size in $cosd-type-scale {
+    @each $screen-size, $font-size in $cosd-type-scale {
     //     @if $screen-size == small {
-    //         @each $size, $value in $font-size {
-    //             --fs-#{$size}: #{$value};
-    //         }
+            @each $size, $value in $font-size {
+                --fs-#{$size}: #{$value};
+            }
     //      } @else {
     //          @include mq(small) {
     //              @each $size,
@@ -22,7 +22,7 @@
     //              }
     //          }
     //     }
-    // } 
+    } 
 }
 
 /* CoSD Color Utility Classes */
