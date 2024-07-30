@@ -1,5 +1,5 @@
 .homepage-hero {
-	height: 360px;
+	/* height: 360px; */
 	background: $sandiegobayblue400;
 
 	.wp-block-media-text__content {
@@ -39,6 +39,27 @@
 
 	p {
 		color: #ffcb2d;
+		color: $san
 		font-weight: bold;
+	}
+}
+
+/* Mobile */
+@media screen and (max-width: 949px) {
+	.homepage-hero {
+		grid-template-columns: 100% !important; 
+		direction: rtl;
+    }
+	.homepage-hero .hero-content {
+		padding: 2rem 0;
+	}
+	.wp-block-media-text.has-media-on-the-right > .wp-block-media-text__media {
+        grid-column: 1 !important;
+        grid-row: 1 !important;
+    }
+	.wp-block-media-text.is-image-fill > .wp-block-media-text__media {
+		background-size: cover;
+		height: 100%;
+		min-height: 250px;
 	}
 }

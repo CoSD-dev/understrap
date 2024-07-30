@@ -1,5 +1,6 @@
 @use 'cosd-colors' as *;
 @use 'cosd-fonts' as *;
+//@use 'cosd-media-queries' as *;
 
 /* CoSD Variables */
 :root {
@@ -9,10 +10,10 @@
         }
     }
     
-    @each $screen-size, $font-size in $cosd-type-scale {
+    @each $screen-size, $cosd-fonts in $cosd-font-sizes {
     //     @if $screen-size == small {
-            @each $size, $value in $font-size {
-                --fs-#{$size}: #{$value};
+             @each $size, $value in $cosd-font-sizes {
+                 --fs-#{$size}: #{$value};
             }
     //      } @else {
     //          @include mq(small) {
@@ -36,3 +37,10 @@
         }
     }
 }
+
+///* CoSD Font Utility Classes */
+// @each $name, $size in $cosd-font-sizes {
+//     .fs-#{$name} {
+//         font-size: $size;
+//     }    
+// }

@@ -112,3 +112,97 @@ $cosd_colors: (
         success: hsl(120, 100%, 33%),
     )
 );
+
+//Sass Color Variables
+$cosd-color-san-diego-bay-blue-0: map-get(map-get($cosd_colors, san-diego-bay-blue), 0);
+$cosd-color-san-diego-bay-blue-50: map-get(map-get($cosd_colors, san-diego-bay-blue), 50);
+$cosd-color-san-diego-bay-blue-100: map-get(map-get($cosd_colors, san-diego-bay-blue), 100);
+$cosd-color-san-diego-bay-blue-200: map-get(map-get($cosd_colors, san-diego-bay-blue), 200);
+$cosd-color-san-diego-bay-blue-300: map-get(map-get($cosd_colors, san-diego-bay-blue), 300);
+$cosd-color-san-diego-bay-blue-400: map-get(map-get($cosd_colors, san-diego-bay-blue), 400);
+$cosd-color-san-diego-bay-blue-500: map-get(map-get($cosd_colors, san-diego-bay-blue), 500);
+$cosd-color-san-diego-bay-blue-600: map-get(map-get($cosd_colors, san-diego-bay-blue), 600);
+$cosd-color-san-diego-bay-blue-700: map-get(map-get($cosd_colors, san-diego-bay-blue), 700);
+$cosd-color-san-diego-bay-blue-800: map-get(map-get($cosd_colors, san-diego-bay-blue), 800);
+$cosd-color-san-diego-bay-blue-900: map-get(map-get($cosd_colors, san-diego-bay-blue), 900);
+
+$cosd-color-western-bluebird-blue-0: map-get(map-get($cosd_colors, western-bluebird-blue), 0);
+$cosd-color-western-bluebird-blue-50: map-get(map-get($cosd_colors, western-bluebird-blue), 50);
+$cosd-color-western-bluebird-blue-100: map-get(map-get($cosd_colors, western-bluebird-blue), 100);
+$cosd-color-western-bluebird-blue-200: map-get(map-get($cosd_colors, western-bluebird-blue), 200);
+$cosd-color-western-bluebird-blue-300: map-get(map-get($cosd_colors, western-bluebird-blue), 300);
+$cosd-color-western-bluebird-blue-400: map-get(map-get($cosd_colors, western-bluebird-blue), 400);
+$cosd-color-western-bluebird-blue-500: map-get(map-get($cosd_colors, western-bluebird-blue), 500);
+$cosd-color-western-bluebird-blue-600: map-get(map-get($cosd_colors, western-bluebird-blue), 600);
+$cosd-color-western-bluebird-blue-700: map-get(map-get($cosd_colors, western-bluebird-blue), 700);
+$cosd-color-western-bluebird-blue-800: map-get(map-get($cosd_colors, western-bluebird-blue), 800);
+$cosd-color-western-bluebird-blue-900: map-get(map-get($cosd_colors, western-bluebird-blue), 900);
+
+$cosd-color-local-citrus-orange-0: map-get(map-get($cosd_colors, local-citrus-orange), 0);
+$cosd-color-local-citrus-orange-50: map-get(map-get($cosd_colors, local-citrus-orange), 50);
+$cosd-color-local-citrus-orange-100: map-get(map-get($cosd_colors, local-citrus-orange), 100);
+$cosd-color-local-citrus-orange-200: map-get(map-get($cosd_colors, local-citrus-orange), 200);
+$cosd-color-local-citrus-orange-300: map-get(map-get($cosd_colors, local-citrus-orange), 300);
+$cosd-color-local-citrus-orange-400: map-get(map-get($cosd_colors, local-citrus-orange), 400);
+$cosd-color-local-citrus-orange-500: map-get(map-get($cosd_colors, local-citrus-orange), 500);
+$cosd-color-local-citrus-orange-600: map-get(map-get($cosd_colors, local-citrus-orange), 600);
+$cosd-color-local-citrus-orange-700: map-get(map-get($cosd_colors, local-citrus-orange), 700);
+$cosd-color-local-citrus-orange-800: map-get(map-get($cosd_colors, local-citrus-orange), 800);
+$cosd-color-local-citrus-orange-900: map-get(map-get($cosd_colors, local-citrus-orange), 900);
+
+$cosd-color-rolling-hills-green-0: map-get(map-get($cosd_colors, rolling-hills-green), 0);
+$cosd-color-rolling-hills-green-50: map-get(map-get($cosd_colors, rolling-hills-green), 50);
+$cosd-color-rolling-hills-green-100: map-get(map-get($cosd_colors, rolling-hills-green), 100);
+$cosd-color-rolling-hills-green-200: map-get(map-get($cosd_colors, rolling-hills-green), 200);
+$cosd-color-rolling-hills-green-300: map-get(map-get($cosd_colors, rolling-hills-green), 300);
+$cosd-color-rolling-hills-green-400: map-get(map-get($cosd_colors, rolling-hills-green), 400);
+$cosd-color-rolling-hills-green-500: map-get(map-get($cosd_colors, rolling-hills-green), 500);
+$cosd-color-rolling-hills-green-600: map-get(map-get($cosd_colors, rolling-hills-green), 600);
+$cosd-color-rolling-hills-green-700: map-get(map-get($cosd_colors, rolling-hills-green), 700);
+$cosd-color-rolling-hills-green-800: map-get(map-get($cosd_colors, rolling-hills-green), 800);
+$cosd-color-rolling-hills-green-900: map-get(map-get($cosd_colors, rolling-hills-green), 900);
+
+$cosd-color-sagebrush-green-0: map-get(map-get($cosd_colors, sagebrush-green), 0);
+$cosd-color-sagebrush-green-50: map-get(map-get($cosd_colors, sagebrush-green), 50);
+$cosd-color-sagebrush-green-100: map-get(map-get($cosd_colors, sagebrush-green), 100);
+$cosd-color-sagebrush-green-200: map-get(map-get($cosd_colors, sagebrush-green), 200);
+$cosd-color-sagebrush-green-300: map-get(map-get($cosd_colors, sagebrush-green), 300);
+$cosd-color-sagebrush-green-400: map-get(map-get($cosd_colors, sagebrush-green), 400);
+$cosd-color-sagebrush-green-500: map-get(map-get($cosd_colors, sagebrush-green), 500);
+$cosd-color-sagebrush-green-600: map-get(map-get($cosd_colors, sagebrush-green), 600);
+$cosd-color-sagebrush-green-700: map-get(map-get($cosd_colors, sagebrush-green), 700);
+$cosd-color-sagebrush-green-800: map-get(map-get($cosd_colors, sagebrush-green), 800);
+$cosd-color-sagebrush-green-900: map-get(map-get($cosd_colors, sagebrush-green), 900);
+
+$cosd-color-mountain-shadow-grey-0: map-get(map-get($cosd_colors, mountain-shadow-grey), 0);
+$cosd-color-mountain-shadow-grey-50: map-get(map-get($cosd_colors, mountain-shadow-grey), 50);
+$cosd-color-mountain-shadow-grey-100: map-get(map-get($cosd_colors, mountain-shadow-grey), 100);
+$cosd-color-mountain-shadow-grey-200: map-get(map-get($cosd_colors, mountain-shadow-grey), 200);
+$cosd-color-mountain-shadow-grey-300: map-get(map-get($cosd_colors, mountain-shadow-grey), 300);
+$cosd-color-mountain-shadow-grey-400: map-get(map-get($cosd_colors, mountain-shadow-grey), 400);
+$cosd-color-mountain-shadow-grey-500: map-get(map-get($cosd_colors, mountain-shadow-grey), 500);
+$cosd-color-mountain-shadow-grey-600: map-get(map-get($cosd_colors, mountain-shadow-grey), 600);
+$cosd-color-mountain-shadow-grey-700: map-get(map-get($cosd_colors, mountain-shadow-grey), 700);
+$cosd-color-mountain-shadow-grey-800: map-get(map-get($cosd_colors, mountain-shadow-grey), 800);
+$cosd-color-mountain-shadow-grey-900: map-get(map-get($cosd_colors, mountain-shadow-grey), 900);
+
+$cosd-color-administration-center-peach-0: map-get(map-get($cosd_colors, administration-center-peach), 0);
+$cosd-color-administration-center-peach-50: map-get(map-get($cosd_colors, administration-center-peach), 50);
+$cosd-color-administration-center-peach-100: map-get(map-get($cosd_colors, administration-center-peach), 100);
+$cosd-color-administration-center-peach-200: map-get(map-get($cosd_colors, administration-center-peach), 200);
+$cosd-color-administration-center-peach-300: map-get(map-get($cosd_colors, administration-center-peach), 300);
+$cosd-color-administration-center-peach-400: map-get(map-get($cosd_colors, administration-center-peach), 400);
+$cosd-color-administration-center-peach-500: map-get(map-get($cosd_colors, administration-center-peach), 500);
+$cosd-color-administration-center-peach-600: map-get(map-get($cosd_colors, administration-center-peach), 600);
+$cosd-color-administration-center-peach-700: map-get(map-get($cosd_colors, administration-center-peach), 700);
+$cosd-color-administration-center-peach-800: map-get(map-get($cosd_colors, administration-center-peach), 800);
+$cosd-color-administration-center-peach-900: map-get(map-get($cosd_colors, administration-center-peach), 900);
+
+$cosd-color-functional-warning-bg: map-get(map-get($cosd_colors, functional), warning-bg);
+$cosd-color-functional-warning: map-get(map-get($cosd_colors, functional), warning);
+$cosd-color-functional-error-bg: map-get(map-get($cosd_colors, functional), error-bg);
+$cosd-color-functional-error: map-get(map-get($cosd_colors, functional), error);
+$cosd-color-functional-info-bg: map-get(map-get($cosd_colors, functional), info-bg);
+$cosd-color-functional-info: map-get(map-get($cosd_colors, functional), info);
+$cosd-color-functional-success-bg: map-get(map-get($cosd_colors, functional), success-bg);
+$cosd-color-functional-success: map-get(map-get($cosd_colors, functional), success);
