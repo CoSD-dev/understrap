@@ -16,6 +16,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="wrapper" id="search-wrapper">
 
+	<div class="page-banner">
+		<div class="container">
+			<div class="row">
+				<h1>Search Results</h1>
+			</div>
+		</div>
+	</div>
+
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 
 		<div class="row">
@@ -31,7 +39,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<header class="page-header">
 
-							<h1 class="page-title">
+							<!-- <h1 class="page-title">
 								<?php
 								printf(
 									/* translators: %s: query term */
@@ -39,7 +47,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 									'<span>' . get_search_query() . '</span>'
 								);
 								?>
-							</h1>
+							</h1> -->
 
 					</header><!-- .page-header -->
 
@@ -70,7 +78,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			understrap_pagination();
 
 			// Do the right sidebar check and close div#primary.
-			get_template_part( 'global-templates/right-sidebar-check' );
+			// get_template_part( 'global-templates/right-sidebar-check' );
 			?>
 
 		</div><!-- .row -->

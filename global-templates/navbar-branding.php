@@ -29,6 +29,8 @@ if ( ! has_custom_logo() ) { ?>
 
 	<?php
 } else {
-	// the_custom_logo();
-	get_template_part('global-templates/nav-logo');
-}
+	// the_custom_logo(); ?>
+	<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" itemprop="url">
+	<?php get_template_part('global-templates/nav-logo'); ?>
+	</a>
+	<?php } 

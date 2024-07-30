@@ -21,7 +21,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 			<div class="col-md-12 content-area" id="primary">
 
-				<main class="site-main" id="main">
+				<main class="site-main content-404" id="main">
 
 					<section class="error-404 not-found">
 
